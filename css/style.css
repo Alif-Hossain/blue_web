@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p, td{
+    font-size: 1.1vw;
+}
+header a{
+    /* font-size: 1.2vw; */
+}
+h2{
+font-size: 1.6vw;
+}
+h3{
+font-size: 1.4vw;
+}
+h4{
+    font-size: 1.2vw;
+}
+.bg_c_1{
+background-color:#021A48;
+}
+.bg_c_2{
+background-color: rgb(46, 45, 45);
+}
+.bg_c_3{
+    background-color:#021A48 ;
+}
+.flex{
+    display: flex;
+}
+span{
+    color: #00B6E8;
+}
+body{
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.wrapper{
+    width: 100%;
+
+    background-color: #021A48;
+}
+.logo{
+    float: left;
+    padding: 1vw 0;
+    
+}
+.logo img{
+    
+}
+.menu{
+    float: right;
+    padding-top: 20px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 2vw;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #00B6E8;
+}
+.banner{
+    width: 100%;
+    background-image: url(../images/bg_img.png) ;
+	padding-top: 16vw;
+	padding-bottom: 8vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner-content{
+    width: 35%;
+	margin-left: 7.5vw;
+}
+.content{
+
+}
+.content h1{
+    font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 3vw;
+    color: white;
+    padding-bottom: 10px;
+
+}
+.content em{
+    font-family:'Arial Narrow Bold', sans-serif;
+	font-weight: 200;
+	font-size: 2.5vw;
+	color: #00B6E8;
+    margin: 0;
+}
+.text1{
+    text-align: justify;
+    font-size: 1.4vw;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .2);
+}
+.banner-content button{
+	margin-top: 4px;
+    font-size: 1.2vw;
+    padding: 1vw;
+	color: #5A5A5A;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.banner-content button:hover{
+	color: white;
+	background-color: rgb(54, 54, 252);
+
+    }
+    
+    .first{
+
+        width: 33%;
+        padding: 2.5vw 0vw 2.5vw 0vw;
+        
+    }
+    .second{
+        width: 33%;
+        padding: 2.5vw 0vw 2.5vw 1.5vw;
+    }
+    .third{
+        width: 33%;
+        padding: 2.5vw 0vw 2.5vw 1.5vw;
+    }
+    .upper{
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    .left_img{
+        width: 25%;
+    }
+    .left_img img {
+        padding: 1vw;
+    }
+    .right{
+        width: 65%;
+        padding: 2vw 3vw 0px 0px;
+        margin-left: 2vw;
+    }
+    .right h2{
+        color: white;
+    }
+    .right h3{
+        color: #00B6E8;
+    }
+    .lower p{
+        text-align: justify;
+        color: white;
+    }
+    
+    .border{
+        border-right: 1px solid white;
+        padding-right: 1.5vw;
+    }
+    .box1{
+        overflow: hidden;
+        }
+        .text1{
+            width: 90%;
+            float: left;
+            
+        
+        }
+        .text1 h2{
+            font-weight: 400;
+            color: white;
+            margin: 0;
+        }      
+        .text1 p{
+            font-size: 1.3vw;
+            color: white;
+            margin-bottom: 1vw;
+        }
+        .text1 table{
+            color: white;
+        }
+        .box-2{
+            overflow: hidden;
+            margin-left: 2.5vw;
+            }
+            .box2{
+                background-color: rgba(0, 0, 0, .2);
+            }
+            .top2{
+                
+                color: white;
+            }
+            
+            
+            
+            
+            .under-text{
+            color: white;
+            margin-top: vw;
+            }
+            
+            .under-text h3{
+                font-size: 1.4vw;
+            }
+            .under-text p{
+                font-size: 1.3vw;
+                color: white;
+                margin: 0;
+            }
+            .box3{
+                overflow: hidden;
+                width: 100%;
+                display: flex;
+            }
+               .box3 .box1{
+                    width: 30%;
+                    overflow: hidden;
+                    float: left;
+                    display: flex;
+                }
+                
+                .box3 .box1 img{
+                    width: 100%;
+                }
+                
+                .box-2{
+                    width: 70%;
+                    float: left;
+                } 
+                .box-2 .block1{
+                    /* padding-left: 20px; */
+                }
+                .box-2 h2{
+                    /* font-size: 18px; */
+                    color: white;
+                    margin: 0;
+                }
+                
+                .box-2 h1{
+                    font-size: 18px;
+                    color: #0178BC;
+                    margin: 0;
+                }
+                
+                .box-2 img{
+                    /* height: 70px; */
+                    max-width: 100%;
+                    padding-top: 15px;
+                }
+                
+
+ /*               
+
+.footer1{
+	width: 100%;
+	background-color: #121B2C;
+	display: flex;
+}
+.footer2{
+	width: 7.5%;
+}
+.footer3{
+    width: 65%;
+    height: 80px;
+	
+}
+.footer3 ul{
+	list-style: none;
+}
+.footer3 ul li a{
+	text-decoration: none;
+	float: left;
+	color: white;
+}
+.footer4{
+	width: 25%;
+}
+.footer5{
+	width: 7.5%;
+}
+.f_logo img{
+    width: 100%;
+}   */
+
+
+/* footer */
+.bg_c_3{
+
+    width: 100%;
+    color: #021A48;
+    display: flex;
+}
+.margin_left{
+	width: 7.5%;
+}
+.f_menu{
+    width: 60%;
+    display: block;
+}
+.f_menu ul{
+    list-style: none;
+}
+.f_menu ul li {
+    float: left;
+    margin: 20px 10px 0px 0px;
+    
+}
+.f_menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    
+}
+.f_menu ul li a:hover{
+    color: #00B6E8;
+}
+.space{
+width: 10%;
+}
+.f_logo{
+width: 15%;
+}
+.f_logo img{
+    width: 80%;
+    padding-top: 10px;
+}
+.margin_right{
+   width: 7.5%; 
+}
+
+.f_menu h4{
+color: white;
+}
+h4{
+    background-color:#021A48 ;
+    color: white;
+    margin-left: 7.5%;
+    padding-bottom: 10px;
+}
+
+
+
